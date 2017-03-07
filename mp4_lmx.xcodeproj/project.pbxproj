@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565626261C142805003FE24E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565626251C142805003FE24E /* QuartzCore.framework */; };
+		5656262C1C142AE6003FE24E /* drawRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5656262B1C142AE6003FE24E /* drawRect.m */; };
 		56D9F56D1C12F3A600CF6A91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F56C1C12F3A600CF6A91 /* main.m */; };
 		56D9F5701C12F3A600CF6A91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F56F1C12F3A600CF6A91 /* AppDelegate.m */; };
 		56D9F5731C12F3A600CF6A91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F5721C12F3A600CF6A91 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		56D9F57B1C12F3A600CF6A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56D9F5791C12F3A600CF6A91 /* LaunchScreen.storyboard */; };
 		56D9F5861C12F3A600CF6A91 /* mp4_lmxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F5851C12F3A600CF6A91 /* mp4_lmxTests.m */; };
 		56D9F5911C12F3A600CF6A91 /* mp4_lmxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D9F5901C12F3A600CF6A91 /* mp4_lmxUITests.m */; };
+		56D9F59F1C12F4C000CF6A91 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9F59E1C12F4C000CF6A91 /* MediaPlayer.framework */; };
+		56D9F5A11C12F67D00CF6A91 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9F5A01C12F67D00CF6A91 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		565626251C142805003FE24E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5656262A1C142AE6003FE24E /* drawRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawRect.h; sourceTree = "<group>"; };
+		5656262B1C142AE6003FE24E /* drawRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawRect.m; sourceTree = "<group>"; };
 		56D9F5681C12F3A600CF6A91 /* mp4_lmx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mp4_lmx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9F56C1C12F3A600CF6A91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56D9F56E1C12F3A600CF6A91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		56D9F58C1C12F3A600CF6A91 /* mp4_lmxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mp4_lmxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9F5901C12F3A600CF6A91 /* mp4_lmxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mp4_lmxUITests.m; sourceTree = "<group>"; };
 		56D9F5921C12F3A600CF6A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56D9F59E1C12F4C000CF6A91 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		56D9F5A01C12F67D00CF6A91 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565626261C142805003FE24E /* QuartzCore.framework in Frameworks */,
+				56D9F5A11C12F67D00CF6A91 /* AVKit.framework in Frameworks */,
+				56D9F59F1C12F4C000CF6A91 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,9 @@
 		56D9F55F1C12F3A600CF6A91 = {
 			isa = PBXGroup;
 			children = (
+				565626251C142805003FE24E /* QuartzCore.framework */,
+				56D9F5A01C12F67D00CF6A91 /* AVKit.framework */,
+				56D9F59E1C12F4C000CF6A91 /* MediaPlayer.framework */,
 				56D9F56A1C12F3A600CF6A91 /* mp4_lmx */,
 				56D9F5841C12F3A600CF6A91 /* mp4_lmxTests */,
 				56D9F58F1C12F3A600CF6A91 /* mp4_lmxUITests */,
@@ -105,6 +120,8 @@
 				56D9F56F1C12F3A600CF6A91 /* AppDelegate.m */,
 				56D9F5711C12F3A600CF6A91 /* ViewController.h */,
 				56D9F5721C12F3A600CF6A91 /* ViewController.m */,
+				5656262A1C142AE6003FE24E /* drawRect.h */,
+				5656262B1C142AE6003FE24E /* drawRect.m */,
 				56D9F5741C12F3A600CF6A91 /* Main.storyboard */,
 				56D9F5771C12F3A600CF6A91 /* Assets.xcassets */,
 				56D9F5791C12F3A600CF6A91 /* LaunchScreen.storyboard */,
@@ -271,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56D9F5731C12F3A600CF6A91 /* ViewController.m in Sources */,
+				5656262C1C142AE6003FE24E /* drawRect.m in Sources */,
 				56D9F5701C12F3A600CF6A91 /* AppDelegate.m in Sources */,
 				56D9F56D1C12F3A600CF6A91 /* main.m in Sources */,
 			);
@@ -498,6 +516,7 @@
 				56D9F5971C12F3A600CF6A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56D9F5981C12F3A600CF6A91 /* Build configuration list for PBXNativeTarget "mp4_lmxTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				56D9F59A1C12F3A600CF6A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56D9F59B1C12F3A600CF6A91 /* Build configuration list for PBXNativeTarget "mp4_lmxUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				56D9F59D1C12F3A600CF6A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

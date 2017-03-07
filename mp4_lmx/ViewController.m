@@ -7,17 +7,29 @@
 //
 
 #import "ViewController.h"
-
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVKit/AVKit.h>
+#import "drawRect.h"
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIView *vvvvv;
+@property (weak, nonatomic) IBOutlet UIView *aaaaa;
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self create];
+    
+    
 }
+
+- (void)create
+{
+    drawRect *draw = [[drawRect alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [_aaaaa insertSubview:draw atIndex:0];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
